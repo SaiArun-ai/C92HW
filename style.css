@@ -1,0 +1,57 @@
+body
+{
+	background: rgb(139, 219, 115);
+}
+
+	.login_div1 , .login_div2
+	{
+		background: rgb(69, 236, 180);
+		padding: 10px;
+		float: none;
+		border-radius: 15px;
+	}
+
+
+#player1_name , #player2_name
+{
+	display: inline-block;
+	margin-left: 20px;
+}
+#word
+{
+	width: 60%;
+}
+#word_display
+{
+	letter-spacing: 5px;
+}
+#output
+{
+background: rgb(255, 0, 0);
+border-radius: 10px;
+border-top: 10px solid #000000;
+padding: 10px;
+float: none;
+text-align: left;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: rgb(118, 173, 110);
+	background-color: black;
+}
+
+input{
+	transition: text-indent 0.4s 0.4s ease;
+}
+
+h3{
+	color: rgb(255, 255, 255);
+	background-color: chartreuse;
+	border-radius: -10px;
+}
+button{
+	text-emphasis: emphasis inherit;;
+	color:aqua;
+}
